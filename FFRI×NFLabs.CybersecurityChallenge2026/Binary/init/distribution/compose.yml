@@ -1,0 +1,8 @@
+services:
+  challenge:
+    build: .
+    ports:
+      - "24634:24634"
+    restart: always
+    stdin_open: true
+    tty: true
