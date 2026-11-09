@@ -1,0 +1,8 @@
+services:
+  do_you_know_bof:
+    build: .
+    ports:
+      - "24502:4000"
+    volumes:
+      - ./flag.txt:/chall/flag.txt:ro
+    restart: always

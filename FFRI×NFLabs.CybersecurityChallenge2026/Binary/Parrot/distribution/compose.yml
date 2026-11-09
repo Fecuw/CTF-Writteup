@@ -1,0 +1,9 @@
+services:
+  parrot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: parrot
+    ports:
+      - "24002:24002"
+    restart: unless-stopped

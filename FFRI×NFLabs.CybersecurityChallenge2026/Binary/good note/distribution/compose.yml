@@ -1,0 +1,8 @@
+services:
+  good_note:
+    build: .
+    ports:
+      - "24683:4000"
+    volumes:
+      - ./flag.txt:/good_note/flag.txt:ro
+    restart: always
