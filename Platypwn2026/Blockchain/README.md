@@ -1,0 +1,3 @@
+# Blockchain
+My personal relief was that “sui” didn't come up as a question. \
+Also, since I use it for my research, I've gotten the hang of how to write it to some extent...
