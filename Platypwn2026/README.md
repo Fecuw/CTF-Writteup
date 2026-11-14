@@ -26,4 +26,5 @@ Is that ripple effect now hitting blockchain?
 ## Misc(Bish Bash Bosh)
   - Bish Bash Bosh
 ## Crypto
-  - 
+  - Unholy Trinity
+  - Ron’s Revenge 
