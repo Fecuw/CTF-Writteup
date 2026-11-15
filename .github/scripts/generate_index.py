@@ -114,7 +114,7 @@ def generate(root, cache, refresh, timeout):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[2])
     parser.add_argument('--refresh', action='store_true', help='Re-fetch already cached event IDs')
     parser.add_argument('--timeout', type=int, default=12)
     args = parser.parse_args()
