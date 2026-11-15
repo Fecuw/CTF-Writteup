@@ -1,0 +1,5 @@
+todo:
+- print bracket v3
+- email prof about calcium data
+- renew kerberos tickets
+- clean up old files
