@@ -1,4 +1,5 @@
 # detail
+CTFtime: https://ctftime.org/event/3082/
 13/11/2026 17:00 UTC - 14/11/2026 11:00 UTC
 (14/11/2026 2:00 JST - 14/11/2026 20:00 JST)
 # comment
