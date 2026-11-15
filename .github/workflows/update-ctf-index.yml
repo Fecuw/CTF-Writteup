@@ -6,16 +6,10 @@ on:
     branches:
       - main
     paths:
-      # 年別ディレクトリ（2025, 2026, 2027...）
       - '[0-9][0-9][0-9][0-9]/**'
-
-      # 索引生成スクリプト
       - '.github/scripts/**'
-
-      # Workflow自体の変更
       - '.github/workflows/update-ctf-index.yml'
 
-  # GitHub上から手動実行も可能
   workflow_dispatch:
 
 permissions:
@@ -30,23 +24,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # リポジトリを取得
       - name: Check out repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
 
-      # Python環境
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      # CTFtimeから日時を取得して索引を生成
       - name: Generate CTF index
-        run: python .github/scripts/generate_index.py
+        run: python .github/scripts/generate_index.py --root "$GITHUB_WORKSPACE"
 
-      # READMEとキャッシュをコミット
       - name: Commit generated files
         run: |
           git config user.name 'github-actions[bot]'
@@ -55,9 +45,9 @@ jobs:
           git add README.md .github/scripts/ctftime-cache.json
 
           if ! git diff --cached --quiet; then
-            git commit -m "docs: update CTF index"
+            git commit -m 'docs: update CTF index'
             git push
           else
-            echo "No changes to commit."
+            echo 'No changes to commit.'
           fi
 

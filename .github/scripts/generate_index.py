@@ -120,7 +120,7 @@ def main():
     args = parser.parse_args()
     root = args.root.resolve()
     readme = root / 'README.md'
-    cache_file = root / 'scripts' / 'ctftime-cache.json'
+    cache_file = root / '.github' / 'scripts' / 'ctftime-cache.json'
     try:
         cache = json.loads(cache_file.read_text(encoding='utf-8')) if cache_file.exists() else {}
         if not isinstance(cache, dict):
@@ -153,7 +153,7 @@ def main():
     if not cache_file.exists() or cache_file.read_text(encoding='utf-8') != serialized:
         cache_file.parent.mkdir(parents=True, exist_ok=True)
         cache_file.write_text(serialized, encoding='utf-8')
-        print('[UPDATED] scripts/ctftime-cache.json')
+        print('[UPDATED] ctftime-cache.json')
     return 0
 
 
