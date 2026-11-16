@@ -17,19 +17,39 @@ PentestはジャンルとしてCTFで見かけなかった分、結構新鮮だ�
 来年もあればかなあ
 Cryptoがあればもっと嬉しかった
 
-# Genre
+<!-- CHALLENGE-INDEX:START -->
 
-Welcome - Welcome
+## Challenges
 
-Pentest - Red Team
+### Binary
 
-Web Exploitation - Web
+- [(Comp)do you know bof](./Binary/%28Comp%29do%20you%20know%20bof/)
+- [good note](./Binary/good%20note/)
+- [init](./Binary/init/)
+- [Parrot](./Binary/Parrot/)
 
-Malware Analysis - Reversing
+### Malware
 
-Binary Exploitation- Pwn
+- [inject-message](./Malware/inject-message/)
+- [know_your_go](./Malware/know_your_go/)
+- [Suspicious](./Malware/Suspicious/)
+- [vuln_ransomware ](./Malware/vuln_ransomware%20/)
 
-Misc- Misc
+### misc
 
+- [SOClopped](./misc/SOClopped/)
+- [Whereabouts](./misc/Whereabouts/)
 
+### Pentest
 
+- [copy](./Pentest/copy/)
+- [Devserver](./Pentest/Devserver/)
+- [Unearthed](./Pentest/Unearthed/)
+
+### Web
+
+- [school-blog](./Web/school-blog/)
+- [smile](./Web/smile/)
+- [View Source](./Web/View%20Source/)
+
+<!-- CHALLENGE-INDEX:END -->

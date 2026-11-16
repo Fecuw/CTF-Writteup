@@ -34,9 +34,11 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Generate challenge indexes
+        run: python .github/scripts/generate_challenge_index.py --root "$GITHUB_WORKSPACE"
+
       - name: Generate CTF index
         run: python .github/scripts/generate_index.py --root "$GITHUB_WORKSPACE"
-
       - name: Commit generated files
         run: |
           git config user.name 'github-actions[bot]'

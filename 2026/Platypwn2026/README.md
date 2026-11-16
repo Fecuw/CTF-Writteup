@@ -6,26 +6,30 @@ CTFtime: https://ctftime.org/event/3082/
 I got the impression that, instead of RSA or PRNGs, there were a lot of specialized algorithms in crypto.
 Is that ripple effect now hitting blockchain?
 
+<!-- CHALLENGE-INDEX:START -->
 
-# solver
-## Blockchain (solved all)
-  - Just in Time
-  - You’re not my type
-  - PlatyLocker
-  - Referral Program
-  - PlatyPals
-  - Card Counting
+## Challenges
 
-## Rev(solved all)
-  - Matryoshka
-  - FS-Enc
+### Blockchain
 
-## fullpwn(unsolved last (Flack Safety part2))
-  - Carbon
-  - Flack Safety
+- [blockchain-cardcounting](./Blockchain/blockchain-cardcounting/)
+- [blockchain-justintime](./Blockchain/blockchain-justintime/)
+- [blockchain-notmytype](./Blockchain/blockchain-notmytype/)
+- [blockchain-platylocker](./Blockchain/blockchain-platylocker/)
+- [blockchain-platypals](./Blockchain/blockchain-platypals/)
 
-## Misc(Bish Bash Bosh)
-  - Bish Bash Bosh
-## Crypto
-  - Unholy Trinity
-  - Ron’s Revenge 
+### Crypto
+
+- [crypto-ronsrevenge](./Crypto/crypto-ronsrevenge/)
+- [crypto-unholytrinity](./Crypto/crypto-unholytrinity/)
+
+### fullpwn
+
+- [fullpwn-carbon](./fullpwn/fullpwn-carbon/)
+- [fullpwn-flacksafety](./fullpwn/fullpwn-flacksafety/)
+
+### Misc
+
+- [misc-bishbashbosh](./Misc/misc-bishbashbosh/)
+
+<!-- CHALLENGE-INDEX:END -->
