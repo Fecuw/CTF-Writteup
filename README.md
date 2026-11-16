@@ -15,7 +15,7 @@
 | [Platypwn2026](https://ctftime.org/event/3082/) | 2026-11-13 17:00 UTC | [View](./2026/Platypwn2026/) |
 | [SpookyCTF2026](https://ctftime.org/event/3339/) | 2026-11-06 17:00 UTC | [View](./2026/SpookyCTF2026/) |
 | [PINK+ CTF2026](https://ctftime.org/event/3331/) | 2026-11-06 12:00 UTC | [View](./2026/PINK%2B%20CTF2026/) |
-| [texsaw2025-Tanpin](https://ctftime.org/event/2736/) | 2025-04-11 19:00 UTC | [View](./2025/texsaw2025-Tanpin/) |
+| [texsaw2025](https://ctftime.org/event/2736/) | 2025-04-11 19:00 UTC | [View](./2025/texsaw2025/) |
 
 > Start times are sourced from CTFtime when available.
 
