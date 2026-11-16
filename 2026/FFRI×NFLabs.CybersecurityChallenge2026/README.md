@@ -23,7 +23,7 @@ Cryptoがあればもっと嬉しかった
 
 ### Binary
 
-- [(Comp)do you know bof](./Binary/%28Comp%29do%20you%20know%20bof/)
+- [do you know bof](./Binary/do%20you%20know%20bof/)
 - [good note](./Binary/good%20note/)
 - [init](./Binary/init/)
 - [Parrot](./Binary/Parrot/)
@@ -50,6 +50,8 @@ Cryptoがあればもっと嬉しかった
 
 - [school-blog](./Web/school-blog/)
 - [smile](./Web/smile/)
+- [Snap_Gallery](./Web/Snap_Gallery/)
+- [SupportDesk](./Web/SupportDesk/)
 - [View Source](./Web/View%20Source/)
 
 <!-- CHALLENGE-INDEX:END -->

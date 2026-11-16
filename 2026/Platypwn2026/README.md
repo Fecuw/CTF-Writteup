@@ -17,6 +17,7 @@ Is that ripple effect now hitting blockchain?
 - [blockchain-notmytype](./Blockchain/blockchain-notmytype/)
 - [blockchain-platylocker](./Blockchain/blockchain-platylocker/)
 - [blockchain-platypals](./Blockchain/blockchain-platypals/)
+- [blockchain-referral](./Blockchain/blockchain-referral/)
 
 ### Crypto
 
