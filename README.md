@@ -5,12 +5,13 @@
 
 ## Events
 
-7 events · Events without CTFtime first; remaining events sorted by start time (newest first).
+8 events · Events without CTFtime first; remaining events sorted by start time (newest first).
 
 | Event | Start (UTC) | Writeup |
 | --- | --- | --- |
 | [FFRI×NFLabs.CybersecurityChallenge2026](./2026/FFRI%C3%97NFLabs.CybersecurityChallenge2026/) | — | [View](./2026/FFRI%C3%97NFLabs.CybersecurityChallenge2026/) |
 | [katagaitaiCTF2026](./2026/katagaitaiCTF2026/) | — | [View](./2026/katagaitaiCTF2026/) |
+| [TSG LIVE! CTF](./2026/TSG%20LIVE%21%20CTF/) | — | [View](./2026/TSG%20LIVE%21%20CTF/) |
 | [h4ckc0nCTF 2026](https://ctftime.org/event/3464/) | 2026-11-14 15:30 UTC | [View](./2026/h4ckc0nCTF%202026/) |
 | [Platypwn2026](https://ctftime.org/event/3082/) | 2026-11-13 17:00 UTC | [View](./2026/Platypwn2026/) |
 | [SpookyCTF2026](https://ctftime.org/event/3339/) | 2026-11-06 17:00 UTC | [View](./2026/SpookyCTF2026/) |
