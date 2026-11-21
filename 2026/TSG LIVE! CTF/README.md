@@ -3,4 +3,4 @@
 残り30分で参加してこれならいい方だと思った
 
 ![alt](./pts.png)
-![alt](./top.png)
+![alt](./Top.png)
