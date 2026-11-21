@@ -172,3 +172,9 @@ WARNING  | 2026-11-21 16:29:44,531 | angr.storage.memory_mixins.default_filler_m
 WARNING  | 2026-11-21 16:29:44,541 | angr.storage.memory_mixins.default_filler_mixin | Filling memory at 0x7ffffffefef7 with 9 unconstrained bytes referenced from 0x500028 (strcmp+0x0 in extern-address space (0x28))
 [+] Found: b'TSGLIVE{mondai_tsukuruno_taihendayo...}'
 ```
+
+# flag
+```
+TSGLIVE{mondai_tsukuruno_taihendayo...}
+```
+
